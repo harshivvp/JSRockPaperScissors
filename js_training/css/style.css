@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color:#24272E;
+    text-align: center;
+    font-family: 'Asap'
+
+}
+
+.score-board {
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 3px solid white;
+    width: 205px;
+    color: white;
+    text-align: center;    
+    border-radius: 4px;
+    font-size: 46px;
+    font-family: 'Asap';
+    position: relative;
+}
+
+.badge {
+    background: lightcoral;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Asap'
+}
+
+#user-label {
+    position: absolute;
+    top: 35px;
+    left: -20px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 35px;
+    right: -30px;
+}
+
+.result {
+    color: white;    
+    font-size: 50px;
+}
+
+.result > p {
+    text-align: center;
+    font-family: 'Asap';
+    font-weight: bold;
+}
+
+.choice {
+    display: inline-block;
+    border: solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px;
+}
+
+.choice:hover {
+    cursor:pointer;
+    border-color: yellow;
+}
+
+
+.action-message {
+    font-family: "Asap";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center
+}
