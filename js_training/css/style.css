@@ -74,7 +74,7 @@ header > h1 {
 
 .choices {
     text-align: center;
-    margin: 50px;
+    margin-top: 50px;
 }
 
 .choice:hover {
@@ -82,10 +82,35 @@ header > h1 {
     border-color: yellow;
 }
 
-
 .action-message {
     font-family: "Asap";
     font-weight: bold;
     font-size: 30px;
     text-align: center
+}
+
+#action-message {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-family: 'Asap';
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.output_choices {
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.win_color {
+    border: 10px green;
+    box-shadow: 0 0 10px green;
+}
+
+.lose_color {
+    border: 10px red;
+    box-shadow: 0 0 10px red;
+
 }
